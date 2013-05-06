@@ -11,7 +11,7 @@ Instalation & Usage
 In the terminal inside the project's folder.
 
 ```shell
-npm install git://github.com/Couto/connect-blessed.git --save
+npm install connect-purgatory --save
 ```
 
 then in the server's file:
