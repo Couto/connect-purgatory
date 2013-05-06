@@ -11,7 +11,7 @@ Instalation & Usage
 In the terminal inside the project's folder.
 
 ```shell
-cd node_modules && git clone https://github.com/Couto/connect-blessed.git
+npm install git://github.com/Couto/connect-blessed.git --save
 ```
 
 
