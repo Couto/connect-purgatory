@@ -11,7 +11,7 @@ module.exports = function (grunt) {
         files: {
             src: ['index.js', 'lib/**/*.js'],
             test: ['test/**/*.js'],
-            all: ['README.md', 'index.js', 'lib/**/*.js', 'test/**/*.js']
+            all: ['index.js', 'lib/**/*.js', 'test/**/*.js']
         },
 
         jshint: {
