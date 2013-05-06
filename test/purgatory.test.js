@@ -2,7 +2,7 @@ var purgatory = require('../index.js'),
     assert  = require('assert'),
     mock = function (ip) {
         var mocked = {
-            req: { connection: { ip: ip } },
+            req: { connection: { remoteAddress: ip } },
             resp: { statusCode: 200, end: function () {} },
             next: function () { mocked.nextCalled = true; },
             nextCalled: false
