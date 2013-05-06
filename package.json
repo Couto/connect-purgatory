@@ -1,5 +1,5 @@
 {
-  "name": "connect-blessed",
+  "name": "connect-purgatory",
   "version": "0.0.1",
   "description": "Connect middleware that whitelists or blacklists IPv4 ranges.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Couto/connect-blessed"
+    "url": "https://github.com/Couto/connect-purgatory"
   },
   "keywords": [
     "connect",

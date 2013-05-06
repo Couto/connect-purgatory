@@ -1,3 +1,3 @@
-module.exports = (process.env.BLESSED_COVERAGE) ?
-    require('./coverage/blessed.js') :
-    require('./lib/blessed.js');
+module.exports = (process.env.PURGATORY_COVERAGE) ?
+    require('./coverage/purgatory.js') :
+    require('./lib/purgatory.js');

@@ -27,7 +27,7 @@ module.exports = function (grunt) {
         },
 
         docco: {
-            blessed: {
+            purgatory: {
                 files: { 'docs/': '<%= files.src %>' },
                 options: {
                     layout: 'parallel'
@@ -54,7 +54,7 @@ module.exports = function (grunt) {
                 options: {
                     ui: 'exports',
                     reporter: 'html-cov',
-                    env: 'BLESSED_COVERAGE'
+                    env: 'PURGATORY_COVERAGE'
                 }
             }
         }
@@ -104,5 +104,5 @@ module.exports = function (grunt) {
 
     grunt.registerTask('default', ['jshint', 'cafemocha:unit']);
     grunt.registerTask('cov', ['clean:coverage', 'coverage:test', 'cafemocha:coverage']);
-    grunt.registerTask('docs', ['clean:docs', 'docco:blessed']);
+    grunt.registerTask('docs', ['clean:docs', 'docco:purgatory']);
 };

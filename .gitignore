@@ -2,3 +2,5 @@ node_modules
 docs
 coverage
 .DS_Store
+lib/npm-debug.log
+npm-debug.log
