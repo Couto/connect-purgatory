@@ -1,6 +1,6 @@
 {
   "name": "connect-purgatory",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Connect middleware that whitelists or blacklists IPv4 ranges.",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   ],
   "author": "Luis Couto <couto@15minuteslate.net>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "grunt-contrib-clean": "~0.4.1",
     "mocha": "~1.9.0",
     "grunt-cafe-mocha": "~0.1.2",
